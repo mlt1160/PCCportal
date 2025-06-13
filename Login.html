@@ -62,9 +62,10 @@
 <script>
   // Valid credentials list
   const validUsers = [
-    { username: "admin", password: "admin123" },
-    { username: "user1", password: "pass1" },
-    { username: "jane", password: "doe123" }
+    { username: "MattiTommi16", password: "AlfieDog123." },
+    { username: "LosAbuelos", password: "sigma" },
+    { username: "ElliotLewis", password: "skibidi" }
+    { username: "WojciechMroz", password: "rizz" }
   ];
 
   document.getElementById("loginForm").addEventListener("submit", function(event) {
@@ -78,7 +79,7 @@
 
     if (isValid) {
       // Redirect to dashboard
-      window.location.href = "dashboard.html";
+      window.location.href = "MainPage.html";
     } else {
       // Show error message
       messageDiv.innerHTML = "<p class='error'>Invalid username or password.</p>";
